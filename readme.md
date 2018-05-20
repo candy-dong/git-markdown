@@ -4,9 +4,17 @@
 ## git 获取代码
 git pull
 ## git 推送代码
-git add *
-git commit -m '备注'
-git push
+1. git add *
+2. git commit -m '备注'
+3. git push
+
+##git仓库初始化
+echo "# work1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/candy-dong/work1.git
+git push -u origin master
 
 
 style.css
